@@ -1,4 +1,4 @@
-import 'package:cripto_lists/home_page.dart';
+import 'package:cryptolist/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
