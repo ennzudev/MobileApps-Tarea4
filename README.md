@@ -23,10 +23,13 @@ Aprendi a JSON Parse, estilo en List View, añadir una pantalla de carga y perso
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img src="https://raw.githubusercontent.com/nunezp20/MobileApps-Tarea4/master/assets/screenshots/loading_home4.png" alt="Loading Screenshot" width="300">
 
+<img src="https://raw.githubusercontent.com/nunezp20/MobileApps-Tarea4/master/assets/screenshots/home_tarea4.png" alt="Home Screenshot" width="300">
 
-## Authors
+<img src="https://raw.githubusercontent.com/nunezp20/MobileApps-Tarea4/master/assets/screenshots/alert_tarea4.png" alt="Alert Screenshot" width="300">
+
+## Author:
 
 - [@ennzu](https://www.github.com/nunezp20)
 
