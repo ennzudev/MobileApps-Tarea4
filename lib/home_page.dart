@@ -16,6 +16,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false, // add this line
         backgroundColor: Theme.of(context).primaryColor,
         title: Text(
           "Crypto APP",
@@ -58,7 +59,7 @@ class _HomePageState extends State<HomePage> {
               );
             },
           ),
-        ], // add this line
+        ],
       ),
       body: ListView.builder(
         itemCount: exchanges.length,
