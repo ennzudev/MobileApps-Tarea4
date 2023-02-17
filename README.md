@@ -1,16 +1,32 @@
-# cryptolist
 
-A new Flutter project.
+# Tarea 4 | Crypto look
 
-## Getting Started
+Se requiere hacer una aplicación con diseño basado en lineamientos de material design, la cual aproveche de manera óptima el espacio en pantalla, además de mostrar al usuario una interfaz con la cual pueda interactuar y navegar dentro de la aplicación.
 
-This project is a starting point for a Flutter application.
+Esta app consta de una pantalla donde se muestra un listado de exchanges famosas de criptodivisas. 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- List View
+- List Title
+- Cargar datos de un JSON / Mapa
+- Estilo Custom
+- Alerts
+
+## Se me complicó:
+
+Darle estilo al List view y sus componentes internos. Así como parsear correctamente el JSON con la información.
+
+## Aprendí:
+Aprendi a JSON Parse, estilo en List View, añadir una pantalla de carga y personalizar las Trailings y Leadings de los List Titles
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+
+## Authors
+
+- [@ennzu](https://www.github.com/nunezp20)
+
