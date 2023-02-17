@@ -16,7 +16,11 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Crypto APP"),
+        title: Text(
+          "Crypto APP",
+          style: TextStyle(color: Color.fromARGB(255, 26, 26, 26)),
+        ),
+        backgroundColor: Theme.of(context).primaryColor,
       ),
       body: ListView.builder(
         itemCount: exchanges.length,
@@ -27,6 +31,13 @@ class _HomePageState extends State<HomePage> {
             title: Text('${exchanges[index]["name"]}'),
             subtitle: Text(
                 '${exchanges[index]["country"]}\n${exchanges[index]["year_established"]}'),
+            trailing: CircleAvatar(
+              backgroundColor: Colors.amber,
+              child: Text(
+                '${exchanges[index]["trust_score"]}',
+                style: TextStyle(color: Color.fromARGB(255, 26, 26, 26)),
+              ),
+            ),
           );
         },
       ),
