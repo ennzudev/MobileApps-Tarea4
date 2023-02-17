@@ -1,8 +1,7 @@
-import 'dart:convert';
-
 import 'package:cryptolist/data/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'dart:convert';
 
 class HomePage extends StatefulWidget {
   HomePage({Key? key}) : super(key: key);
@@ -23,7 +22,11 @@ class _HomePageState extends State<HomePage> {
         itemCount: exchanges.length,
         itemBuilder: (BuildContext context, int index) {
           return ListTile(
+            //leading: Icon(${exchanges[index]["icon"]}),
+            leading: Image.network(exchanges[index]["image"]),
             title: Text('${exchanges[index]["name"]}'),
+            subtitle: Text(
+                '${exchanges[index]["country"]}\n${exchanges[index]["year_established"]}'),
           );
         },
       ),
